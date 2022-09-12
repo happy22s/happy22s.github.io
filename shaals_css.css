@@ -1,22 +1,47 @@
 .one,.two{
-	width: 500px;
-	height:200px;
+	width: 860px;
+	height:700px;
 	
 	box-shadow: 0 0 20px 0 hsl(223,59%,31%,0.8);
 	/*display: inline-block;*/
 	margin:	auto;
+	/*padding: 300px;*/
+	
+}
+.three,.four,.five,.six{
+	width: 50px;
+	height:50px;
+	
+	box-shadow: 0 0 20px 0 hsl(223,59%,31%,0.8);
+	/*margin:	auto;*/
+	display: inline-block;
+	animation: mymove 5s infinite;
+	
+}
+
+@keyframes mymove {
+	
+  from {background: linear-gradient(60deg,rgb(110,120,150),rgb(190,56,70), rgb(170,35,199));}
+  to {background: linear-gradient(60deg,rgb(130,27,155),rgb(250,136,150), rgb(10,220,150));}
+}
+
+.container{
+	width:860px;
+	height: 150px;
+	box-shadow: 0 0 20px 0 hsl(223,59%,31%,0.8);
 	
 }
 body{
 	margin: 0;
-	background: linear-gradient(75deg,rgb(162,27,255),rgb(200,36,50), rgb(110,120,15));
+	background: linear-gradient(75deg,rgb(162,27,255),rgb(200,36,50), rgb(110,120,150));
 }
 
 h1{
 	text-align:center;
-	font-family:fantasy;
+	/*font-family:fantasy;*/
 	font-size: 35px;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: 'Brush Script MT', cursive;
 	
 }
